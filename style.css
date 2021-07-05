@@ -64,8 +64,45 @@ body{
 
 }
 
-.chera p{
+ p{
     color: rgb(68, 65, 65);
     font-size: 20px
 
 }
+
+.last{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.parent{
+    display:flex;
+    width: 100%;
+    }
+.child{
+    margin: 40px;
+    max-width: 40%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+    
+}
+
+h2{
+    
+    font-weight:600;
+    
+
+}
+
+.first{
+   border-left: 8px solid tomato;
+    
+}
+.second{
+    border-left: 8px solid blue
+     
+ }
+
+
+
+
+
